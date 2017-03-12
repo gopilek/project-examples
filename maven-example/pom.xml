@@ -25,7 +25,13 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>LAPTOP-5T4A618D-releases</name>
+            <url>http://localhost:8081/artifactory/libs-release</url>
+        </repository>
+    </distributionManagement>
     <build>
         <pluginManagement>
             <plugins>
