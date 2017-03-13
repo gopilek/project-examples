@@ -32,6 +32,30 @@
             <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
         </snapshotRepository>
     </distributionManagement>
+    <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>LAPTOP-5T4A618D-releases</name>
+        <url>http://localhost:8081/artifactory/libs-release</url>
+    </repository>
+</distributionManagement>
+
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>LAPTOP-5T4A618D-snapshots</name>
+        <url>http://localhost:8081/artifactory/libs-snapshot</url>
+    </repository>
+</distributionManagement>
+
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>LAPTOP-5T4A618D-releases</name>
+        <url>http://localhost:8081/artifactory/libs-release-local</url>
+    </repository>
+</distributionManagement>
+
     <build>
         <pluginManagement>
             <plugins>
